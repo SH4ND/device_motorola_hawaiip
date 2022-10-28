@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # MTK PlPath Utils
 PRODUCT_PACKAGES += \
     mtk_plpath_utils.recovery
