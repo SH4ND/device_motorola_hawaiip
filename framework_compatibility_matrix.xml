@@ -1,60 +1,5 @@
 <compatibility-matrix version="4.0" type="framework">
     <hal format="hidl" optional="true">
-        <name>android.hardware.radio</name>
-        <version>1.2</version>
-        <version>1.6</version>
-        <interface>
-            <name>IRadio</name>
-            <instance>em1</instance>
-            <instance>em2</instance>
-            <instance>em3</instance>
-            <instance>em4</instance>
-            <instance>imsAospSlot1</instance>
-            <instance>imsAospSlot2</instance>
-            <instance>imsAospSlot3</instance>
-            <instance>imsAospSlot4</instance>
-            <instance>se1</instance>
-            <instance>se2</instance>
-            <instance>se3</instance>
-            <instance>se4</instance>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-            <instance>slot3</instance>
-            <instance>slot4</instance>
-        </interface>
-        <interface>
-            <name>ISap</name>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-            <instance>slot3</instance>
-            <instance>slot4</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.radio.config</name>
-        <version>1.3</version>
-        <interface>
-            <name>IRadioConfig</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="false">
-        <name>vendor.egistec.hardware.fingerprint</name>
-        <version>4.0</version>
-        <interface>
-            <name>IBiometricsFingerprintRbs</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="false">
-        <name>vendor.fpsensor.hardware.fpsensorhidlsvc</name>
-        <version>2.0</version>
-        <interface>
-            <name>IFpsensorHidlSvc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.aee</name>
         <version>1.1</version>
         <interface>
@@ -64,17 +9,7 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.apmonitor</name>
-        <version>2.0</version>
-        <interface>
-            <name>IApmService</name>
-            <instance>apm_hidl_service</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.apuware.apusys</name>
-        <version>1.0</version>
-        <version>2.0</version>
         <version>2.1</version>
         <interface>
             <name>INeuronApusys</name>
@@ -91,7 +26,6 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.apuware.utils</name>
-        <version>1.0</version>
         <version>2.0</version>
         <interface>
             <name>IApuwareUtils</name>
@@ -100,27 +34,9 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.apuware.xrp</name>
-        <version>1.0</version>
         <version>2.0</version>
         <interface>
             <name>INeuronXrp</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.atci</name>
-        <version>1.0</version>
-        <interface>
-            <name>IAtcid</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.bluetooth.audio</name>
-        <version>2.1</version>
-        <version>2.2</version>
-        <interface>
-            <name>IBluetoothAudioProvidersFactory</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -130,14 +46,6 @@
         <interface>
             <name>IATMs</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.camera.bgservice</name>
-        <version>1.1</version>
-        <interface>
-            <name>IBGService</name>
-            <instance>internal/0</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -173,27 +81,11 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.composer_ext</name>
-        <version>1.0</version>
-        <interface>
-            <name>IComposerExt</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.dfps</name>
         <version>1.0</version>
         <interface>
             <name>IFpsPolicyService</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.dmc</name>
-        <version>1.2</version>
-        <interface>
-            <name>IDmcService</name>
-            <instance>dmc_hidl_service</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -212,7 +104,7 @@
             <instance>EmHidlServer</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
+    <hal fhormat="hidl" optional="true">
         <name>vendor.mediatek.hardware.gpu</name>
         <version>1.0</version>
         <interface>
@@ -264,14 +156,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.keymaster_attestation</name>
-        <version>1.1</version>
-        <interface>
-            <name>IKeymasterDevice</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.lbs</name>
         <version>1.0</version>
         <interface>
@@ -319,14 +203,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.mmagent</name>
-        <version>1.1</version>
-        <interface>
-            <name>IMMAgent</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mms</name>
         <version>1.6</version>
         <interface>
@@ -343,128 +219,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.mtkpower</name>
-        <version>1.2</version>
-        <interface>
-            <name>IMtkPerf</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IMtkPower</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.mtkradioex</name>
-        <version>2.5</version>
-        <interface>
-            <name>IMtkRadioEx</name>
-            <instance>imsSlot1</instance>
-            <instance>imsSlot2</instance>
-            <instance>imsSlot3</instance>
-            <instance>imsSlot4</instance>
-            <instance>mtkAssist1</instance>
-            <instance>mtkAssist2</instance>
-            <instance>mtkAssist3</instance>
-            <instance>mtkAssist4</instance>
-            <instance>mtkCap1</instance>
-            <instance>mtkCap2</instance>
-            <instance>mtkCap3</instance>
-            <instance>mtkCap4</instance>
-            <instance>mtkEm1</instance>
-            <instance>mtkEm2</instance>
-            <instance>mtkEm3</instance>
-            <instance>mtkEm4</instance>
-            <instance>mtkRcs1</instance>
-            <instance>mtkRcs2</instance>
-            <instance>mtkRcs3</instance>
-            <instance>mtkRcs4</instance>
-            <instance>mtkSe1</instance>
-            <instance>mtkSe2</instance>
-            <instance>mtkSe3</instance>
-            <instance>mtkSe4</instance>
-            <instance>mtkSlot1</instance>
-            <instance>mtkSlot2</instance>
-            <instance>mtkSlot3</instance>
-            <instance>mtkSlot4</instance>
-            <instance>mtkSmartRatSwitch1</instance>
-            <instance>mtkSmartRatSwitch2</instance>
-            <instance>mtkSmartRatSwitch3</instance>
-            <instance>mtkSmartRatSwitch4</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.mtkradioex</name>
-        <version>3.0</version>
-        <interface>
-            <name>IMtkRadioEx</name>
-            <instance>imsSlot1</instance>
-            <instance>imsSlot2</instance>
-            <instance>imsSlot3</instance>
-            <instance>imsSlot4</instance>
-            <instance>mtkAssist1</instance>
-            <instance>mtkAssist2</instance>
-            <instance>mtkAssist3</instance>
-            <instance>mtkAssist4</instance>
-            <instance>mtkCap1</instance>
-            <instance>mtkCap2</instance>
-            <instance>mtkCap3</instance>
-            <instance>mtkCap4</instance>
-            <instance>mtkEm1</instance>
-            <instance>mtkEm2</instance>
-            <instance>mtkEm3</instance>
-            <instance>mtkEm4</instance>
-            <instance>mtkRcs1</instance>
-            <instance>mtkRcs2</instance>
-            <instance>mtkRcs3</instance>
-            <instance>mtkRcs4</instance>
-            <instance>mtkRsu1</instance>
-            <instance>mtkRsu2</instance>
-            <instance>mtkRsu3</instance>
-            <instance>mtkRsu4</instance>
-            <instance>mtkSe1</instance>
-            <instance>mtkSe2</instance>
-            <instance>mtkSe3</instance>
-            <instance>mtkSe4</instance>
-            <instance>mtkSlot1</instance>
-            <instance>mtkSlot2</instance>
-            <instance>mtkSlot3</instance>
-            <instance>mtkSlot4</instance>
-            <instance>mtkSmartRatSwitch1</instance>
-            <instance>mtkSmartRatSwitch2</instance>
-            <instance>mtkSmartRatSwitch3</instance>
-            <instance>mtkSmartRatSwitch4</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.netdagent</name>
-        <version>1.0</version>
-        <interface>
-            <name>INetdagent</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.neuropilot.agent</name>
         <version>1.2</version>
         <interface>
             <name>IAgent</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.nvram</name>
-        <version>1.1</version>
-        <interface>
-            <name>INvram</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.nwk_opt</name>
-        <version>1.0</version>
-        <interface>
-            <name>INwkOpt</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -481,14 +239,6 @@
         <version>1.0</version>
         <interface>
             <name>IPplAgent</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.pq</name>
-        <version>2.3-15</version>
-        <interface>
-            <name>IPictureQuality</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -541,14 +291,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.videotelephony</name>
-        <version>1.0</version>
-        <interface>
-            <name>IVideoTelephony</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.vpu</name>
         <version>1.0</version>
         <interface>
@@ -565,42 +307,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.wifi.supplicant</name>
-        <version>2.0</version>
-        <interface>
-            <name>ISupplicant</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.wifi.supplicant</name>
-        <version>2.2</version>
-        <interface>
-            <name>ISupplicant</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.tesiai.hardware.hdcpconnection</name>
         <version>1.0</version>
         <interface>
             <name>IHDCPConnection</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.trustonic.tee</name>
-        <version>1.1</version>
-        <interface>
-            <name>ITee</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.trustonic.tee.tui</name>
-        <version>1.0</version>
-        <interface>
-            <name>ITui</name>
             <instance>default</instance>
         </interface>
     </hal>
