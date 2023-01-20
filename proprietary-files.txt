@@ -1,8 +1,6 @@
 # Unpinned blobs from sys_mssi_64_cn-user 12 STA32.79-77-28-40 77-28-40 release-keys
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service.mediatek
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
 vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so
 vendor/lib/hw/audio.primary.default.so
