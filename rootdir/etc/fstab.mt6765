@@ -1,4 +1,4 @@
-system                                                     /system                   ext4     ro             wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,slotselect
+system                                                     /system                   ext4     ro             wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-developer-gsi.avbpubkey:/avb/r-developer-gsi.avbpubkey:/avb/s-developer-gsi.avbpubkey,slotselect
 vendor                                                     /vendor                   ext4     ro             wait,avb,logical,first_stage_mount,slotselect
 product                                                    /product                  ext4     ro             wait,avb,logical,first_stage_mount,slotselect
 /dev/block/platform/bootdevice/by-name/md_udc              /metadata                 ext4     noatime,nosuid,nodev,discard          wait,check,formattable,first_stage_mount
@@ -40,3 +40,4 @@ product                                                    /product             
 /dev/block/platform/bootdevice/by-name/odmdtbo             /odmdtbo                  emmc     defaults             defaults
 /dev/block/platform/bootdevice/by-name/dtbo                /dtbo                     emmc     defaults             defaults
 /dev/block/platform/bootdevice/by-name/vbmeta              /vbmeta                   emmc     defaults             defaults
+
