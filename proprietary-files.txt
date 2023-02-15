@@ -131,7 +131,6 @@ vendor/lib/libFrameRecord.so
 vendor/lib/libIMGegl.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libPVRMtkutils.so
-vendor/lib/libdpframework.so
 vendor/lib/libged.so
 vendor/lib/libglslcompiler.so
 vendor/lib/libgpu_aux.so
@@ -142,7 +141,6 @@ vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmml.so
-vendor/lib/libpq_prot.so
 vendor/lib/libpqparamparser.so
 vendor/lib/libsrv_um.so
 vendor/lib/libufwriter.so
@@ -168,7 +166,6 @@ vendor/lib64/libIMGegl.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libPVRMtkutils.so
 vendor/lib64/libcomposer_ext.so
-vendor/lib64/libdpframework.so
 vendor/lib64/libged.so
 vendor/lib64/libglslcompiler.so
 vendor/lib64/libgpu_aux.so
@@ -448,7 +445,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib/vendor.mediatek.hardware.pq@2.9.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
-vendor/lib64/libpq_prot.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
@@ -1048,7 +1044,6 @@ vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtcloader.so
 vendor/lib/libmtk_bsg.so
-vendor/lib/libmtk_drvb.so
 vendor/lib/libmtkares.so
 vendor/lib/libmtkcam.eventcallback.so
 vendor/lib/libmtkcam_debugutils.so
@@ -1327,7 +1322,6 @@ vendor/lib64/libmtcloader.so
 vendor/lib64/libmtk-fusion-ril-prop-vsim.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtk_bsg.so
-vendor/lib64/libmtk_drvb.so
 vendor/lib64/libmtkares.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
