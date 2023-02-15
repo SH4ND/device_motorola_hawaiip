@@ -124,7 +124,6 @@ vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.rogue.so
 vendor/lib/hw/memtrack.default.so
-vendor/lib/hw/vulkan.mt6765.so
 vendor/lib/mt6765/libdpframework.so
 vendor/lib/mt6765/libpq_prot.so
 vendor/lib/libDefaultFpsActor.so
@@ -161,7 +160,6 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.rogue.so
 vendor/lib64/hw/hwcomposer.mt6765.so
 vendor/lib64/hw/memtrack.default.so
-vendor/lib64/hw/vulkan.mt6765.so
 vendor/lib64/mt6765/libdpframework.so
 vendor/lib64/mt6765/libpq_prot.so
 vendor/lib64/libDefaultFpsActor.so
