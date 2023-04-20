@@ -24,13 +24,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctrl
 
 PRODUCT_PACKAGES += \
-    bootctrl.mt6765
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6765 \
-    libgptutils \
-    libz \
-    libcutils
+    bootctrl.mt6765.recovery
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
