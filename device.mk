@@ -103,6 +103,11 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     libbluetooth_audio_session.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.device@3.6.vendor:64 \
+    android.hardware.camera.provider@2.6.vendor:64
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
