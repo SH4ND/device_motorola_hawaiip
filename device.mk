@@ -140,7 +140,6 @@ PRODUCT_PACKAGES += \
     multi_init.rc \
     init.connectivity.common.rc \
     meta_init.modem.rc \
-    init.aee.rc \
     init.ago.rc \
     init.sensor_1_0.rc \
     init.modem.rc \

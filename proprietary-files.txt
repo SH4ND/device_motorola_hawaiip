@@ -974,11 +974,6 @@ vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libaalservice.so
 
-# AEE
-vendor/lib/libladder.so
-vendor/lib64/libaedv.so
-vendor/lib64/libladder.so
-
 vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libapmonitor_vendor.so
 vendor/lib/libapu_mdw.so
