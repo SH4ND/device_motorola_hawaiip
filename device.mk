@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor:64 \
     android.hardware.camera.provider@2.6.vendor:64
 
+# CAS
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service-lazy
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \

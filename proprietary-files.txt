@@ -74,10 +74,6 @@ vendor/lib64/libbt-vendor.so
 vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-
 # APU
 system_ext/lib/libapuwareapusys.mtk.so
 system_ext/lib/libapuwareapusys_v2.mtk.so
@@ -222,7 +218,6 @@ vendor/lib64/hw/gatekeeper.trustonic.so
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/bin/mtk_agpsd
-
 
 # Health
 vendor/etc/init/android.hardware.health@2.1-service.rc
