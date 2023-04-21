@@ -320,13 +320,8 @@ on property:ro.vendor.mtklog_internal=1
 
 service thermal_manager /vendor/bin/thermal_manager
     user root
-	group system
+    group system
     oneshot
-
-service loghidlvendorservice /vendor/bin/loghidlvendorservice
-    class main
-    user shell
-    group system shell radio
 
 service meta_tst /vendor/bin/meta_tst
     user root

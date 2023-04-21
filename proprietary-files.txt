@@ -665,8 +665,7 @@ vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/mtk_agpsd_p.rc
-vendor/etc/init/mtk_pkm_service.rc
-vendor/etc/init/mtklog.rc
+vendor/etc/init/mtk_pkm_service.rc/
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
