@@ -1043,7 +1043,6 @@ vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmpvr.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtcloader.so
-vendor/lib/libmtk_bsg.so
 vendor/lib/libmtkares.so
 vendor/lib/libmtkcam.eventcallback.so
 vendor/lib/libmtkcam_debugutils.so
@@ -1321,7 +1320,6 @@ vendor/lib64/libmsnr.so
 vendor/lib64/libmtcloader.so
 vendor/lib64/libmtk-fusion-ril-prop-vsim.so
 vendor/lib64/libmtk-ril.so
-vendor/lib64/libmtk_bsg.so
 vendor/lib64/libmtkares.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
