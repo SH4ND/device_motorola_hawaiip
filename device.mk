@@ -181,6 +181,10 @@ PRODUCT_COPY_FILES += \
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.2.vendor:64
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.insmod.sh \
