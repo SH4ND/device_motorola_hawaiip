@@ -214,9 +214,6 @@ vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib64/libMcClient.so
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster41.so
-vendor/lib64/libkeymaster4_1support.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/libb64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
@@ -377,9 +374,6 @@ vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
 -vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
-vendor/lib/libkeystore-wifi-hidl.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libwifi-hal.so
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
