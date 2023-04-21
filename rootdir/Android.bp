@@ -168,6 +168,12 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
+    name: "fstab.enableswap",
+    src: "etc/fstab.enableswap",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "fstab.mt6765",
     src: "etc/fstab.mt6765",
     vendor: true,
