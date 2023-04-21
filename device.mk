@@ -136,6 +136,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.mt6765 \
     fstab.enableswap \
+    ueventd.mt6765.rc \
     multi_init.rc \
     init.connectivity.common.rc \
     meta_init.modem.rc \

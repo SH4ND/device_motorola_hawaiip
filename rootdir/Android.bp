@@ -166,6 +166,14 @@ prebuilt_etc {
     vendor: true,
 }
 
+// Ueventd
+prebuilt_etc {
+    name: "ueventd.mt6765.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.mt6765.rc",
+    vendor: true,
+}
+
 // fstab
 prebuilt_etc {
     name: "fstab.enableswap",
