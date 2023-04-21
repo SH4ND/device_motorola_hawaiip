@@ -93,6 +93,16 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     tinymix
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio@2.1.vendor \
+    android.hardware.bluetooth@1.1.vendor \
+    android.hardware.bluetooth.audio@2.1-impl
+
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    libbluetooth_audio_session.vendor
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
