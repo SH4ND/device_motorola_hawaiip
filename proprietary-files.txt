@@ -1,6 +1,7 @@
 # Unpinned blobs from sys_mssi_64_cn-user 12 STA32.79-77-28-40 77-28-40 release-keys
 
 # Audio
+vendor/bin/audiocmdservice_atci
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.mt6765.so
 vendor/lib/hw/audio.r_submix.mt6765.so
@@ -20,7 +21,6 @@ vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/bin/audiocmdservice_atci
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.mt6765.so
 vendor/lib64/hw/audio.r_submix.mt6765.so
@@ -53,8 +53,8 @@ vendor/lib64/libvibrator.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
-vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/bin/autobt
+vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/init.bip.rc
 vendor/etc/init/init.bt_drv.rc
 vendor/lib/libbluetooth_hw_test.so
@@ -197,8 +197,8 @@ vendor/lib64/hw/gatekeeper.trustonic.so
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
-vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/bin/mtk_agpsd
+vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic
@@ -288,13 +288,20 @@ vendor/lib64/hw/power.default.so
 # Radio
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
+vendor/bin/hw/mtkfusionrild
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/charon
 vendor/bin/chattr
 vendor/bin/chipinfo
 vendor/bin/epdg_wod
-vendor/bin/hw/mtkfusionrild
+vendor/bin/gsm0710muxd
+vendor/bin/netcat
+vendor/bin/netdagent
+vendor/bin/netdc
+vendor/bin/rcs_volte_stack
+vendor/etc/apdb/APDB_MT6765_S01__W2225
+vendor/etc/apdb/APDB_MT6765_S01__W2225_ENUM
 vendor/lib/libmtkcutils.so
 vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libmtkproperty.so
@@ -313,13 +320,6 @@ vendor/lib64/librilfusion.so
 vendor/lib64/libsysenv.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
-vendor/etc/apdb/APDB_MT6765_S01__W2225
-vendor/etc/apdb/APDB_MT6765_S01__W2225_ENUM
-vendor/bin/gsm0710muxd
-vendor/bin/netcat
-vendor/bin/netdagent
-vendor/bin/netdc
-vendor/bin/rcs_volte_stack
 
 # Secure element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
@@ -359,23 +359,23 @@ vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
 
 # Vibrator
 vendor/bin/hw/android.hardware.vibrator-service.mediatek
+vendor/etc/init/vibrator-mtk-default.rc
 vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
-vendor/etc/init/vibrator-mtk-default.rc
 
 # Wi-Fi
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
 vendor/bin/hw/hostapd
 vendor/bin/hw/wpa_supplicant
+vendor/bin/wlan_assistant
+vendor/bin/wmt_launcher
+vendor/bin/wmt_loader
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
 -vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 vendor/lib64/libwifi-hal.so
-vendor/bin/wlan_assistant
-vendor/bin/wmt_launcher
-vendor/bin/wmt_loader
 
 # Camera
 vendor/bin/hw/camerahalserver
@@ -427,6 +427,10 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
 # IMS
+lib64/libimsma.so
+lib64/libimsma_adapt.so
+lib64/libimsma_rtp.so
+lib64/libimsma_socketwrapper.so
 vendor/bin/hw/vtservice_hidl
 vendor/bin/muxreport
 vendor/bin/volte_clientapi_ua
@@ -459,10 +463,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libverno.so
 vendor/lib64/libwo.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-lib64/libimsma_adapt.so
-lib64/libimsma_rtp.so
-lib64/libimsma.so
-lib64/libimsma_socketwrapper.so
 
 # Rootdir
 vendor/bin/factory
@@ -583,10 +583,10 @@ vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 
 # Gnss
 vendor/bin/bip
-vendor/bin/starter
-vendor/bin/stroke
 vendor/bin/ipsec_mon
 vendor/bin/lbs_hidl_service
+vendor/bin/starter
+vendor/bin/stroke
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml
@@ -602,6 +602,7 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
 vendor/etc/gnss/agps_profiles_conf2.xml
+vendor/etc/init/mtk_pkm_service.rc/
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/boringssl_self_test.rc
@@ -628,7 +629,6 @@ vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/mtk_agpsd_p.rc
-vendor/etc/init/mtk_pkm_service.rc/
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
