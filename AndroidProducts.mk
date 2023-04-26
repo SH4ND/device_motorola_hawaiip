@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_hawaiipl.mk
+    $(LOCAL_DIR)/twrp_hawaiip.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_hawaiipl-user \
-    twrp_hawaiipl-userdebug \
-    twrp_hawaiipl-eng
+    twrp_hawaiip-eng

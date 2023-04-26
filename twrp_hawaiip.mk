@@ -13,17 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from hawaiipl device
-$(call inherit-product, device/motorola/hawaiipl/device.mk)
+$(call inherit-product, device/motorola/hawaiip/device.mk)
 
-PRODUCT_DEVICE := hawaiipl
-PRODUCT_NAME := twrp_hawaiipl
+PRODUCT_DEVICE := hawaiip
+PRODUCT_NAME := twrp_hawaiip
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto e32(s)
+PRODUCT_MODEL := moto G22
 PRODUCT_MANUFACTURER := motorola
-
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_p410ae-user 12 STB32.36-99-1 99-1 release-keys"
-
-BUILD_FINGERPRINT := motorola/hawaiipl_g/hawaiipl:12/STB32.36-99-1/99-1:user/release-keys
