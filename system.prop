@@ -1,0 +1,2 @@
+# Fstab
+ro.postinstall.fstab.prefix=/system
