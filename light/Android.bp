@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.light-service.everpal",
-    init_rc: ["android.hardware.light-service.everpal.rc"],
-    vintf_fragments: ["android.hardware.light-service.everpal.xml"],
+    name: "android.hardware.light-service.hawaiip",
+    init_rc: ["android.hardware.light-service.hawaiip.rc"],
+    vintf_fragments: ["android.hardware.light-service.hawaiip.xml"],
     relative_install_path: "hw",
     srcs: [
         "main.cpp",

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_everpal.mk
+    $(LOCAL_DIR)/lineage_hawaiip.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_everpal-user \
-    aosp_everpal-userdebug \
-    aosp_everpal-eng
+    lineage_hawaiip-user \
+    lineage_hawaiip-userdebug \
+    lineage_hawaiip-eng

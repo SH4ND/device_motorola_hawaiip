@@ -1,4 +1,4 @@
-service vendor.light-default /vendor/bin/hw/android.hardware.light-service.everpal
+service vendor.light-default /vendor/bin/hw/android.hardware.light-service.hawaiip
     class hal
     user system
     group system

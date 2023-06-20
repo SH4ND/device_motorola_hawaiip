@@ -5,7 +5,7 @@ on fs
     chown system system /sys/bus/i2c/drivers/awinic_haptic/9-005a/effect_id
     chown system system /sys/bus/i2c/drivers/awinic_haptic/9-005a/index
 
-service vendor.vibrator-everpal /vendor/bin/hw/android.hardware.vibrator-service.everpal
+service vendor.vibrator-everpal /vendor/bin/hw/android.hardware.vibrator-service.hawaiip
     class hal
     user nobody
     group nobody

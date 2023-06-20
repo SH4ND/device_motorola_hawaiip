@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=everpal
-VENDOR=xiaomi
+DEVICE=hawaiip
+VENDOR=motorola
 
 INITIAL_COPYRIGHT_YEAR=2023
 
